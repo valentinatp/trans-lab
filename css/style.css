@@ -2,6 +2,7 @@ body{
 	background-color: #3e3f41;
 }
 
+/*INDEX PRINCIPAL*/
 .container-logo{
 	margin: 60px;
 }
@@ -55,5 +56,6 @@ footer p{
 	font-weight: bold;
 	cursor: pointer;
 }
+
 
 
