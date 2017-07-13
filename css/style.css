@@ -56,6 +56,110 @@ footer p{
 	font-weight: bold;
 	cursor: pointer;
 }
+/*FIN INDEX PRINCIPAL*/
 
 
+/*MENU SIDBAR*/
 
+#html2{
+	background-color: #dddee0;
+}
+
+.superior{
+	display: inline;
+	margin: 0 10px;
+}
+#sup{
+	background-color: #3e3f41;
+}
+
+#titulo-menu{
+	margin-left: 30px;
+	text-transform: uppercase;
+	color: #dddee0;
+}
+
+.menu {
+	height: 100%; 
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	overflow-x: hidden; 
+	padding-top: 60px;
+	transition: 0.5s;
+	background-color: white;
+}
+
+.opciones{
+	padding: 10px 0;
+	font-size: 20px;
+	margin-left: 5px;
+}
+
+.opciones i{
+	margin: 0 20px;
+	font-size: 24px;
+	background-color: transparent;
+	color: #f6a800;
+}
+
+.opciones a{
+	color: rgba(9,8,8,0.8);
+	font-weight: 600;
+	display: block;
+	transition: 0.3s
+}
+
+.opciones a:hover{
+	color: #f6a800;
+	text-decoration: none;
+}
+
+.closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+	color: black;
+}
+
+.closebtn i:hover{
+	color: #f6a800;
+}
+
+.bars i{
+	color: whitesmoke;
+	font-size: 30px;
+	padding: 5px 7px
+}
+
+.bars i:hover{
+	color: #f6a800;
+}
+
+#cuadro{
+	background-color: #dddee0;
+}
+
+.container-opciones{
+	display: block;
+	padding: 10px;
+	border: 2px solid whitesmoke;
+	margin: 80px 10px;
+}
+
+.enlaces{
+	margin: 5px 0;
+	padding: 20px 0;
+	background-color: #f6a800;
+}
+
+.enlaces a{
+	padding: 15px;
+	color: whitesmoke;
+	text-transform: uppercase;
+	font-weight: 600;
+}
