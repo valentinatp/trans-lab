@@ -1,0 +1,59 @@
+body{
+	background-color: #3e3f41;
+}
+
+.container-logo{
+	margin: 60px;
+}
+
+#trans{
+	text-transform: uppercase;
+	color: #f6a800;
+	font-weight: 600;
+}
+
+.panel-default{
+	background-color: transparent;
+	margin: 20px 10px;
+	border: 2px solid #f6a800;
+}
+
+.form-control{
+	margin: 0;
+}
+
+button{
+	background-color: #f6a800;
+	border: 2px solid black;
+	border-radius: 10px;
+	width: 100%;
+	padding: 6px 0;
+	margin: 10px 0;
+
+}
+
+.parrafo{
+	display: inline;
+}
+
+#p1{
+	color: whitesmoke;
+}
+
+footer{
+	height: 50px;
+	margin-top: 16%;
+}
+
+footer p{
+	display: inline-block;
+	margin: 12px 0;
+	color: black;
+}
+
+#p2{
+	font-weight: bold;
+	cursor: pointer;
+}
+
+
