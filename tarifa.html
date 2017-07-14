@@ -70,14 +70,46 @@
 			</div>
 			<div class="row">
 				<div class="col-xs-6">
-					<select name="tarifa" id="tarifario"></select>
+					<label for="tarifa">Tarifa</label>
+					<select name="tarifa" id="tarifario">
+						<option value="">- Selecciona una tarifa-</option>
+						<option value="740" id="alto">Horario alto</option>
+						<option value="680" id="medio">Horario medio</option>
+						<option value="640" id="bajo">Horario bajo</option>
+						<option value="210" id="escolar">Tarifa escolar</option>
+					</select>
 				</div>
 				<div class="col-xs-6">
-					<select name="tarjetas" id=""></select>
+					<label for="tarjeta">Tarjeta</label>
+					<select name="tarjetas" id="tarjetero">
+						<option value="">- Selecciona una tarjeta -</option>
+						<option value="1">Tarjeta uno</option>
+						<option value="2">Tarjeta dos</option>
+						<option value="3">Tarjeta tres</option>
+					</select>
 				</div>
 			</div>
 			<div class="row">
-				<button id="calcularTarifa">calcular</button>
+				<div class="col-xs-12">
+					<button id="calcularTarifa">calcular</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<div class="costo-pasaje">
+						<p id="costo" class="hidden"></p>
+						<p id="saldito-pasaje" class="hidden"></p>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<div class="costo-final">
+						<p id="costo-final" class="hidden"></p>
+						<p id="saldito-pasajeFinal" class="hidden"></p>
+					</div>
+				</div>
 			</div>
 	</section>
 
@@ -85,5 +117,6 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/tarifa.js"></script>
 </body>
 </html>

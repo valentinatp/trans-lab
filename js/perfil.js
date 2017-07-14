@@ -6,11 +6,12 @@ $(document).ready(function(){
 
 	$("#tarjeta").click(function(el){
 		el.preventDefault();
+		$("#tarjetas-guardadas").removeClass("hidden");
 
 		var ingTarjeta = $("#numTarjeta").val();
 		if (ingTarjeta == ""){
 			var span = document.createElement("span");
-			var ident = document.getElementById("email");
+			var ident = document.getElementById("numTarjeta");
 			var padre = ident.parentNode;
 			padre.appendChild(span);
 
@@ -19,7 +20,7 @@ $(document).ready(function(){
 		return span;
 
 		}else{
-			$(".tarjetas-guardadas").append("<a href='#' class='tarjetasIngresadas'>" + ingTarjeta + "</a> " + "<br>");
+			$("#tarjetas-guardadas").append("<a href='#' class='tarjetasIngresadas'>" + ingTarjeta + "</a> " + "<br>");
 			$("#numTarjeta").val("");
 		}
 	})
