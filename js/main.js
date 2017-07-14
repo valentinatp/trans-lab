@@ -9,12 +9,10 @@ var botonCerrar = document.getElementById("close");
 	botonCerrar.addEventListener("click", function(){
 		document.getElementById("myMenu").style.width = "0";
 	});
+
 */
 
-
-var btn = document.getElementById("boton");
-
-	btn.addEventListener("click", function(e){
+	$("#boton").click(function(e){
 		e.preventDefault();
 		validarCorreo();
 		validarContrasena();
@@ -63,45 +61,9 @@ function validarContrasena(){
 	}
 }
 
-
 /*
-$(document).ready(function(){
-	$("#tarjeta").click(function(el){
-		el.preventDefault();
-
-		var ingTarjeta = $("#numTarjeta").val();
-		if (ingTarjeta == ""){
-			var span = document.createElement("span");
-			var ident = document.getElementById("email");
-			var padre = ident.parentNode;
-			padre.appendChild(span);
-
-			var contenido = document.createTextNode("Debe ingresar un número de tarjeta ");
-			span.appendChild(contenido);
-		return span;
-
-		}else{
-			$(".tarjetas-guardadas").append("<a href='#'>" + ingTarjeta + "</a> " + "<br>");
-			$("#numTarjeta").val("");
-		}
-	})
-
-});
-*/
-/*
-var boton = document.getElementById("sangurucho");
-
-	boton.addEventListener("click", function(){
-		document.getElementById("contenedor").classList.remove("hidden");
-	});
-*/
 
 
-/*
-	var btn = document.getElementById("close");
-btn.addEventListener("click", function(){
-	document.getElementById("contenedor").classList.add("hidden");
-})
 
 $( document ).ready(function() {
     console.log( "ready!" );
