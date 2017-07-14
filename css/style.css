@@ -40,6 +40,15 @@ button{
 	font-weight: 600;
 }
 
+span{
+	display: block;
+	background-color: #f6a800;
+	padding: 5px;
+	width: 100%;
+	color: black;
+	font-weight: 600;
+}
+
 .parrafo{
 	display: inline;
 }
@@ -72,7 +81,6 @@ footer p{
 	display: inline;
 	margin: 0 10px;
 }
-
 #sup{
 	background-color: #3e3f41;
 }
@@ -85,7 +93,6 @@ footer p{
 
 .menu {
 	height: 100%; 
-	width: 70%;
 	width: 0;
 	position: fixed;
 	z-index: 1;
@@ -228,11 +235,6 @@ img.imagen{
 	margin-left: 10px;
 }
 
-.enlaces {
-background: black;
-	display: none;
-	}
-
 .barrita{
 	background: #302d2d;
 	width: 100%;
@@ -253,4 +255,10 @@ background: black;
 	color: #f6a800;
 }
 
+.numTarjeta2{
+	margin: 40px 0;
+}
 
+#opciones{
+	margin: 20px;
+}
