@@ -1,6 +1,13 @@
 body{
 	background-color: #3e3f41;
+	margin: 0;
+	padding: 0;
 }
+
+#html2, #perf, #preg, #sal, #htmlfinal{
+	background-color: #dddee0;
+}
+
 
 /*INDEX PRINCIPAL*/
 .container-logo{
@@ -30,7 +37,7 @@ button{
 	width: 100%;
 	padding: 6px 0;
 	margin: 10px 0;
-
+	font-weight: 600;
 }
 
 .parrafo{
@@ -61,10 +68,6 @@ footer p{
 
 /*MENU SIDBAR*/
 
-#html2{
-	background-color: #dddee0;
-}
-
 .superior{
 	display: inline;
 	margin: 0 10px;
@@ -93,7 +96,7 @@ footer p{
 }
 
 .opciones{
-	padding: 10px 0;
+	padding: 5px 0;
 	font-size: 20px;
 	margin-left: 5px;
 }
@@ -109,7 +112,8 @@ footer p{
 	color: rgba(9,8,8,0.8);
 	font-weight: 600;
 	display: block;
-	transition: 0.3s
+	transition: 0.3s;
+	font-size: 15px;
 }
 
 .opciones a:hover{
@@ -140,6 +144,8 @@ footer p{
 	color: #f6a800;
 }
 
+/*CUADRO BASE*/
+
 #cuadro{
 	background-color: #dddee0;
 }
@@ -163,3 +169,46 @@ footer p{
 	text-transform: uppercase;
 	font-weight: 600;
 }
+
+/*FIN INDEX OPCIONES*/
+
+/*INDEX PERFIL*/
+
+.container-imagen{
+	background-color: #f6a800;
+	width: 100%;
+	margin: 0; 
+}
+
+img.imagen{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	margin: 10px 0;
+}
+
+.container-tarj{
+	display: block;
+	padding: 10px;
+	margin: 10px 10px;
+}
+
+#correo{
+	width: 100%;
+	margin: 20px 0;
+	border: 2px solid #f6a800;
+	border-radius: 6px;
+}
+
+#numTarjeta{
+	background-color: transparent;
+	width: 100%;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	border-bottom: 2px solid #f6a800;
+	margin-bottom: 10px;
+}
+
+/*FIN INDEX PERFIL*/
+

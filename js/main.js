@@ -5,3 +5,4 @@ function openNav() {
 function closeNav() {
     document.getElementById("myMenu").style.width = "0";
 }
+
